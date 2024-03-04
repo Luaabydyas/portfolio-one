@@ -7,10 +7,18 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
     
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    
 
     :root {
         --fonte1: Arial, Helvetica, sans-serif;
+        --fonte2: "Dancing Script", cursive;
+    
+       
     }
+    
+        
+
 
 
 
@@ -44,17 +52,19 @@
     text-decoration: none;
     color: #ccc;
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.8em;
     font-weight: normal;
     text-decoration: none;
+    font-family: "Dancing Script";
 }
 
 .menu a:hover {
     border-radius: 15px;
     transition: 1s;
-    color: #54291e;
+    color: #ac8a8a;
    
 }
+
 
 
 
