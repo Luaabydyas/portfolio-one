@@ -8,6 +8,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
     
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
     
 
     :root {
@@ -17,15 +20,13 @@
        
     }
     
-        
-
-
-
-
     body, main, header {
-        background-color: #ece7dd;
+       
+        background-color: #ffffff;
         min-height: 100vh;
         font-family: var(--fonte1);
+        
+        
     }
     
         
@@ -44,9 +45,7 @@
         padding: 0;
         display: flex;
         justify-content: right;
-        border: 1px solid black;
-        background-color: #54291e ;
-        box-shadow: 5px 5px 5px;
+        background-color: #fffefe ;
         border-radius: 5px;
 }
 .menu a {
@@ -107,7 +106,7 @@ ul li span {
 
 
 ul li .icon {
-    color: #54291e;
+    color: rgb(2,0,36)
     font-size: 1.5em;
     transition: .2s;
 
@@ -144,7 +143,8 @@ ul li:hover::before{
 }
 footer {
     border: 1px solid #e9d1a5;
-    background-color:  #54291e;
+    background: rgb(2,0,36);
+    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color: #ccc;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
